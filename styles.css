@@ -367,7 +367,7 @@ body {
         align-items: center;
         flex-direction: column;
         margin-bottom: initial;
-        padding: 3.5rem 0 3.5rem 5rem;
+        padding: 3.5rem 0 3.5rem 1rem;
     }
 
     .hero__type , .hero__number {
