@@ -24,6 +24,7 @@ body {
     font-family: var(--ff-epilogue);
     max-width: 375px;
     margin: 0 auto;
+    background-color: #fff;
 }
 
 .btn {
