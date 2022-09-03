@@ -374,6 +374,17 @@ body {
         text-align: initial;
     }
 
+    .hero__title {
+        font-size: 78.25px;
+        min-width: 700px;
+    }
+
+    .sub-title {
+        font-size: 20px;
+        line-height: 32px;
+        min-width: 230px;
+    }
+
     .bottom-wrapper {
         padding: initial;
         background-color: #f9f8f6;
@@ -431,7 +442,15 @@ body {
     }
 
     #line-one {
-        left: 26%;
-        width: 25%;
+        left: 38%;
+        top: -46.5px;
+    }
+
+    .nav__btn {
+        padding: 12px 1.15rem;
+    }
+
+    .hero__btn {
+        padding: 15px 2rem;
     }
 }
