@@ -1,90 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="./styles.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Suite landing page</title>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
 
-  <header class="nav">
-    <img src="./assets/logo.svg" alt="#">
-    <button class="btn nav__btn">
-      Request Beta Access
-    </button>
-  </header>
-  
-  <section class="hero">
-    <div class="hero__left-col">
-      <div class="info-wrapper">
-        <img id="line-one" src="./assets/pattern-curved-line-1.svg" alt="#">
-        <h1 class="hero__title">A <span class="title--bold">super solution</span> for your <span class="title--bold">business.</span></h1>
-        <p class="sub-title">
-          Our marketing and sales automations help you scale your outreach to
-          get more leads for your company.
-        </p>
-        <button class="btn hero__btn">Request Beta Access</button>
+    <title>Frontend Mentor | Suite landing page</title>
+  </head>
+  <body>
+    <header class="nav">
+      <img src="./assets/logo.svg" alt="#" />
+      <button class="btn nav__btn">Request Beta Access</button>
+    </header>
+
+    <section class="hero">
+      <div class="hero__left-col">
+        <div class="info-wrapper">
+          <img id="line-one" src="./assets/pattern-curved-line-1.svg" alt="#" />
+          <h1 class="hero__title">
+            A <span class="title--bold">super solution</span> for your
+            <span class="title--bold">business.</span>
+          </h1>
+          <p class="sub-title">
+            Our marketing and sales automations help you scale your outreach to
+            get more leads for your company.
+          </p>
+          <button class="btn hero__btn">Request Beta Access</button>
+        </div>
+        <img
+          src="./assets/image-hero-landscape.png"
+          srcset="
+            ./assets/image-hero-landscape.png  767w,
+            ./assets/image-hero-portrait.png  1024w
+          "
+          alt=""
+          class="hero__img"
+        />
       </div>
-      <img src="./assets/image-hero-landscape.png" 
-           srcset="/assets/image-hero-landscape.png 767w,
-                   /assets/image-hero-portrait.png 1024w"
-           alt="" class="hero__img">
-    </div>
-    <div class="hero__right-col">
-      <div class="hero__stats" id="companies">
-        <h2 class="hero__number">2K+</h2>
-        <p class="hero__type">Companies</p>
-      </div>
-      <div class="hero__stats" id="languages">
-        <h2 class="hero__number">8</h2>
-        <p class="hero__type">Languages</p>
-      </div>
-      <div class="hero__stats" id="leads">
-        <h2 class="hero__number">1.2M</h2>
-        <p class="hero__type" id="hero__type--leads">Leads</p>
-      </div>
-    </div>
-  </section>
-  
-  <div class="bottom-wrapper">
-    <section class="testimonial">
-      <img src="./assets/image-jeremy-small.png" alt="" id="jeremy">
-      <img src="./assets/pattern-curved-line-2.svg" alt="" id="pattern-2">
-      <div class="testimonial__quote-wrapper">
-        <h2 class="testimonial__title">It just <span class="testimonial--bold">works.</span></h2>
-        <p class="testimonial__statement">
-          “I really like how it is an all-in-one solution that handle many of
-          the tasks that you would normally need separate tools to do the same
-          job. This thing is a miracle worker.”
-        </p>
-        <p class="testimonial__author">Jeremy Robinson</p>
-        <p class="testimonial__author-title">CMO, Fylo</p>
+      <div class="hero__right-col">
+        <div class="hero__stats" id="companies">
+          <h2 class="hero__number">2K+</h2>
+          <p class="hero__type">Companies</p>
+        </div>
+        <div class="hero__stats" id="languages">
+          <h2 class="hero__number">8</h2>
+          <p class="hero__type">Languages</p>
+        </div>
+        <div class="hero__stats" id="leads">
+          <h2 class="hero__number">1.2M</h2>
+          <p class="hero__type" id="hero__type--leads">Leads</p>
+        </div>
       </div>
     </section>
-    
-    <footer class="ftr">
-      <img src="./assets/logo.svg" alt="#">
-      <p class="copyright">Copyright - Suite</p>
-      <div class="ftr__social-links">
-        <a href="https://www.facebook.com/" target="_blank">
-          <img src="./assets/icon-facebook.svg" alt="Facebook.com">
-        </a>
-        <a href="https://twitter.com/" target="_blank">
-          <img src="./assets/icon-twitter.svg" alt="Twitter.com">
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-          <img src="./assets/icon-instagram.svg" alt="Facebook.com">
-        </a>
-      </div>
-    </footer>
-  </div>
 
-</body>
+    <div class="bottom-wrapper">
+      <section class="testimonial">
+        <img src="./assets/image-jeremy-small.png" alt="" id="jeremy" />
+        <img src="./assets/pattern-curved-line-2.svg" alt="" id="pattern-2" />
+        <div class="testimonial__quote-wrapper">
+          <h2 class="testimonial__title">
+            It just <span class="testimonial--bold">works.</span>
+          </h2>
+          <p class="testimonial__statement">
+            “I really like how it is an all-in-one solution that handle many of
+            the tasks that you would normally need separate tools to do the same
+            job. This thing is a miracle worker.”
+          </p>
+          <p class="testimonial__author">Jeremy Robinson</p>
+          <p class="testimonial__author-title">CMO, Fylo</p>
+        </div>
+      </section>
+
+      <footer class="ftr">
+        <img src="./assets/logo.svg" alt="#" />
+        <p class="copyright">Copyright - Suite</p>
+        <div class="ftr__social-links">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="./assets/icon-facebook.svg" alt="Facebook.com" />
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+            <img src="./assets/icon-twitter.svg" alt="Twitter.com" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="./assets/icon-instagram.svg" alt="Facebook.com" />
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
