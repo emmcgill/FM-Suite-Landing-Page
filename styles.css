@@ -24,7 +24,7 @@ body {
     font-family: var(--ff-epilogue);
     max-width: 375px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #f9f8f6;
 }
 
 .btn {
@@ -148,8 +148,7 @@ body {
 /* TESTIMONIAL */
 
 .bottom-wrapper {
-    background-color: var(--clr-beige);
-    border-radius: 20px 20px 0 0;
+    background-color: #f9f8f6;
 }
 
 .testimonial {
@@ -263,13 +262,13 @@ body {
     }
 
     .bottom-wrapper {
-        background-color: #fff;
+        background-color: #f9f8f6;
         padding: 0 40px 0 40px;
         position: relative;
     }
 
     .ftr {
-        background-color: var(--clr-beige);
+        background-color: #f3ede7;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -376,7 +375,8 @@ body {
     }
 
     .bottom-wrapper {
-        padding: initial
+        padding: initial;
+        background-color: #f9f8f6;
     }
 
     .testimonial {
